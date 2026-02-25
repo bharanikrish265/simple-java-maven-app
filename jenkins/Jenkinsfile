@@ -31,5 +31,10 @@ pipeline {
                 echo "New Job is set. Yet to progress"
             }
         }
+        stage("New branch has been created"){
+            steps{
+                echo "New branch is created for Multi-branch progress"
+            }
+        }
     }
 }
