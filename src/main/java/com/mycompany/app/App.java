@@ -12,9 +12,6 @@ public class App
 
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
-
-        System.out.println("Hi this is Bharanikrishnan from Pipeline Creation");
-
         
     }
 
