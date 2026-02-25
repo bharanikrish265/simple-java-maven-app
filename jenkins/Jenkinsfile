@@ -26,5 +26,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage("Job is triggered or not"){
+            steps{
+                echo "New Job is set. Yet to progress"
+            }
+        }
     }
 }
